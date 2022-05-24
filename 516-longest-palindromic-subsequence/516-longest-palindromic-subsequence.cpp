@@ -25,6 +25,6 @@ public:
     ans = max (ans , t[i][j]);
 
             }}   
-        return t[n][n] ;  
+        return ans ;  
     }
 };
