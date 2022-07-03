@@ -8,7 +8,6 @@ public:
             l = l + nums[i];
         }
         j = (n*(n+1))/2;
-       // cout<<j<<" "<<l;
       return int(j - l);
     }
 };
