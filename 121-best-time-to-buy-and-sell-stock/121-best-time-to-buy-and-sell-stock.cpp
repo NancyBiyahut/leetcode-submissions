@@ -6,7 +6,7 @@ public:
         for(int i = 1  ; i< arr.size() ; i++)
         {
             minn = min(minn , arr[i]);
-            maxx = max(maxx , abs(arr[i] - minn));
+            maxx = max(maxx , arr[i] - minn);
         }
         return maxx ;
     }
